@@ -3,7 +3,8 @@
 int main(){
     char sec;
     printf("Enter your section .\n");
-    scanf("%c", &sec);
-    printf("You entered your section as %c\n", sec);
+    sec=getchar();
+    printf("You entered your section as \n");
+    putchar(sec);
     return 0;
 }
