@@ -9,5 +9,10 @@ int main(){
     gets(b);
     int c=strcmp(a, b);
     printf("%d \n", c);
+    int  n;
+    printf("Enter n to which string should be compared .\n");
+    scanf("%d", &n);
+    int d=strncmp(a, b ,n);
+    printf("%d \n", d);
     return 0;
 }
